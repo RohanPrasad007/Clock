@@ -1,0 +1,36 @@
+#clockCon{
+	position: relative;
+	height: 40vw;
+	width: 40vw;
+	margin: auto;
+	background:url(clock.jpg) no-repeat;
+	background-size:100%;
+}
+
+#hour,#minute,#second{
+	position:absolute;
+	background-color:black;
+	border-radius:10px;
+    transform-origin:bottom;
+}
+
+#hour{
+    height: 26%;
+    width: 1.5%;
+    top: 23%;
+    left: 48.5%;;    
+}
+
+#minute{
+    height: 34%;
+    width: 1.35%;
+    left: 48.9%;
+    top: 16%;
+}
+
+#second{
+    height: 40%;
+    width: 1%;
+    left: 48.4%;
+    top: 9%;
+}
